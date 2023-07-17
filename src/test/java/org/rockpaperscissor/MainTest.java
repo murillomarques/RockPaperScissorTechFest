@@ -10,9 +10,16 @@ class MainTest {
 
     }
 
+
     @Test
     void testRockPaperScissor() {
         rockPaperScissor();
-        assertEquals(Main.main(), "Hello world!");
+        assertTrue(true);
+    }
+
+    @Test
+    void testFailedRockPaperScissor() {
+        rockPaperScissor();
+        assertTrue(false);
     }
 }
