@@ -6,8 +6,13 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
 
+    private void rockPaperScissor(){
+
+    }
+
     @Test
-    void main() {
+    void testRockPaperScissor() {
+        rockPaperScissor();
         assertEquals(Main.main(), "Hello world!");
     }
 }
